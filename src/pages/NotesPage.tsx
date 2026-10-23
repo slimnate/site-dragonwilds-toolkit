@@ -7,26 +7,26 @@ export function NotesPage() {
         <p className='kicker'>Notes</p>
         <h1>Before you edit a save</h1>
         <p className='lede'>
-          Dragonwilds Toolkit writes character JSON and world <code>.sav</code> files on Windows.
+          A few things worth knowing before you start changing your character and world files.
         </p>
       </header>
 
       <div className='note-list'>
         <article className='note'>
-          <h2>Shared worlds</h2>
+          <h2>Playing with others</h2>
           <p>
-            Single-player edits are allowed. Do not use an edited character to gain an advantage in a shared world.
+            Editing your own single-player saves is fine. Please don’t use an edited character to get an unfair advantage in a shared world.
           </p>
         </article>
         <article className='note'>
-          <h2>Saving</h2>
+          <h2>Saving and backups</h2>
           <p>
-            The app lists <code>%LocalAppData%\RSDragonwilds\Saved\SaveCharacters</code> and <code>SaveGames</code>. Close the game before overwriting a live file. Each save writes an <code>.editorbackup</code> next to that file first.
+            The app picks up your saves from <code>%LocalAppData%\RSDragonwilds\Saved\SaveCharacters</code> and <code>SaveGames</code>. Every time you save, it first makes an <code>.editorbackup</code> copy right next to the original, so you can always go back. Just make sure the game is closed before you save over a file it’s using.
           </p>
         </article>
         <article className='note'>
-          <h2>Affiliation</h2>
-          <p>Unofficial. Not affiliated with Jagex.</p>
+          <h2>Who made this</h2>
+          <p>Dragonwilds Toolkit is an unofficial fan project and isn’t affiliated with Jagex.</p>
         </article>
       </div>
 

@@ -366,6 +366,30 @@ main {
   background: #1b1724;
 }
 
+.more-thumb {
+  aspect-ratio: 2 / 1;
+  margin-bottom: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #100e16;
+}
+
+/* Crops the app's sidebar and title bar out of the full-window screenshots. */
+.more-thumb img {
+  display: block;
+  width: 160%;
+  max-width: none;
+  margin: -13% 0 0 -28%;
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+
+.more-card:hover .more-thumb img,
+.more-card:focus-visible .more-thumb img {
+  opacity: 1;
+}
+
 .more-card h3,
 .feature-block h2 {
   display: flex;

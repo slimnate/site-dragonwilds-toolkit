@@ -54,7 +54,7 @@ function Shell() {
       </main>
 
       <footer className='site-footer'>
-        <p>Unofficial. Not affiliated with Jagex.</p>
+        <p>An unofficial fan project. Not affiliated with Jagex.</p>
         <p>
           <Link href='/features'>Features</Link>
           <Link href='/notes'>Notes</Link>

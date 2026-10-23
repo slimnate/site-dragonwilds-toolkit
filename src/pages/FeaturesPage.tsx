@@ -18,9 +18,9 @@ export function FeaturesPage() {
         <div>
           <header className='page-intro'>
             <p className='kicker'>Features</p>
-            <h1>Every page in the editor</h1>
+            <h1>Everything the editor can do</h1>
             <p className='lede'>
-              Inventory, skills, spells, and the map, then the rest of the character file. World saves are included and still experimental.
+              A tour of every page in the app, in the order you’ll find them. World save editing is at the end, and it’s still experimental.
             </p>
           </header>
           {features.map((feature) => (
